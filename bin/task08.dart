@@ -1,7 +1,7 @@
 int func(number){
   int x = number%10;
   int y = number~/10;
-  int answer = x-y;
+  int answer = y-x;
   return answer;
 }
 /*
@@ -15,5 +15,5 @@ int func(number){
       return answer
   */
 void main() {
-  print(func(29));
+  print(func(72));
 }
