@@ -1,3 +1,7 @@
+int func(number){
+  answer = (number%10)+(number~/10)
+  return amswer;
+}
 /*
   Create function called func 
   Create function argument 'number' of type int
@@ -8,4 +12,6 @@
   Returns:
       return answer
   */
-void main() {}
+void main() {
+  print(func(34));
+}
