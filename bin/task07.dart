@@ -1,3 +1,10 @@
+int func(number){
+    int x = number%10;
+    int y = number~/10;
+    int answer = x%y;
+    return answer;
+
+}
 /*
 Create fucntion func
 Create fucntion argument 'number' if type int
@@ -8,4 +15,6 @@ Args:
 Returns:
     return answer
 */
-void main() {}
+void main() {
+    print(func(25));
+}
