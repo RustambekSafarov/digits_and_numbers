@@ -1,3 +1,6 @@
+int func(number){
+  return number%10;
+}
 /*
   Create function called func
   Create a function argument  called ‘number’ of type int
@@ -8,4 +11,6 @@
   Returns:
       return answer
   */
-void main() {}
+void main() {
+  print(func(11))
+}
