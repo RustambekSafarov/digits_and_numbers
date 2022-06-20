@@ -15,5 +15,5 @@ int func(number){
       return answer
   */
 void main() {
-  print(func(72));
+  print(func(27));
 }
