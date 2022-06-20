@@ -1,7 +1,7 @@
 int func(number){
   int x = number%10;
   int y = number~/10;
-  int answer = y-x;
+  double answer = (x+y)/2;
   return answer;
 }
 /*
