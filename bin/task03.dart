@@ -1,6 +1,6 @@
 int func(number){
   answer = (number%10)+(number~/10);
-  return amswer;
+  return answer;
 }
 /*
   Create function called func 
