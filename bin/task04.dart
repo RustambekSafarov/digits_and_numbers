@@ -1,7 +1,7 @@
 int func(number){
   int a = number%10;
   int b = number~/10;
-  int answer = a>b;
+  int answer = a<b;
   return answer;
 }
 /*
