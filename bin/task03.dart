@@ -1,5 +1,5 @@
 int func(number){
-  answer = (number%10)+(number~/10);
+  int answer = (number%10)+(number~/10);
   return answer;
 }
 /*
