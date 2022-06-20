@@ -1,3 +1,11 @@
+int func(number){
+  int a = number%10;
+  int b = (number%100)~/10;
+  int c = (number~/100)%10;
+  int d = (number~/100)~/10;
+  int answer = a*b*c*d;
+  return answer;
+}
 /*
   Create function func 
   Create function argument 'number' of  type int
@@ -8,4 +16,6 @@
   Returns:
       return answer
   */
-void main() {}
+void main() {
+  print(func(4353))
+}
